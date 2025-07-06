@@ -1,10 +1,15 @@
+import Profile from "./components/Profile";
+import Sidebar from "./components/Sidebar";
 
-import { Suspense } from "react";
-import FetchData from "./components/FetchData";
+
+
 const App = () => {
-  return <Suspense> 
-    <FetchData />
-  </Suspense>
+
+  
+  return <div>
+    <Sidebar />
+    <Profile />
+  </div>;
 };
 
 export default App;
