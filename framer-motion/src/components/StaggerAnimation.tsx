@@ -23,7 +23,7 @@ const StaggerAnimation = () => {
     animate="visible"
     >
       {[...Array(5)].map((_, index) => (
-        <motion.div className="box m-[2rem]" key={index} 
+        <motion.div className="box m-[10rem]" key={index} 
         variants={childVariants}
         />
       ))}
